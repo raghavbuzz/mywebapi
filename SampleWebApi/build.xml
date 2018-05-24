@@ -21,7 +21,7 @@
       <arg line="/t:build" />
       <arg line="/p:Configuration=Release" />
       <arg line="/p:VisualStudioVersion=14.0" />
-      <arg line="GetCategoriesWepApi.sln" />
+      <arg line="SampleWebApi.sln" />
     </exec>
   </target>
   
