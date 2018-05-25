@@ -32,7 +32,7 @@ namespace SampleWebApi.Controllers
             ////        }
             ////    }
             ////}
-            categories.Add(new Categories() { CategoryId = 1, CategoryName = "Truck" });
+            categories.Add(new Categories() { CategoryId = 1, CategoryName = "Car" });
             return categories;
         }
     }
