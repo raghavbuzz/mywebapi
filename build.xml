@@ -20,7 +20,7 @@
       <arg line="/m" />
       <arg line="/t:build" />
       <arg line="/p:Configuration=Release" />
-      <arg line="/p:VisualStudioVersion=14.0" />
+      <arg line="/p:VisualStudioVersion=12.0" />
       <arg line="SampleWebApi.sln" />
     </exec>
   </target>
