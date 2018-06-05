@@ -21,11 +21,9 @@ namespace SampleWebApi.Controllers
             ////{
             ////    if (reader.HasRows)
             ////    {
-            ////        // Read advances to the next row.
             ////        while (reader.Read())
             ////        {
-            ////            Categories objCategories = new Categories();
-            ////            // To avoid unexpected bugs access columns by name.
+            ////            Categories objCategories = new Categories();/     
             ////            objCategories.CategoryId = reader.GetInt32(reader.GetOrdinal("CategoryId"));
             ////            objCategories.CategoryName = reader.GetString(reader.GetOrdinal("CategoryName"));
             ////            categories.Add(objCategories);
@@ -33,6 +31,7 @@ namespace SampleWebApi.Controllers
             ////    }
             ////}
             categories.Add(new Categories() { CategoryId = 1, CategoryName = "Car" });
+            categories.Add(new Categories() { CategoryId = 2, CategoryName = "Truck" });
             return categories;
         }
     }
